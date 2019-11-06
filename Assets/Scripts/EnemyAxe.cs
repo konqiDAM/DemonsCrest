@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class EnemyAxe : MonoBehaviour
 {
+    private int lifeSpan;
     void Start()
     {
+        lifeSpan = Random.Range(1, 3);
+        StartCoroutine(applyGravity());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator applyGravity()
     {
-        
+        yield return new WaitForSecondsRealtime(lifeSpan);
+        GetComponent<Rigidbody2D>().gravityScale = 1;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -24,11 +27,6 @@ public class EnemyAxe : MonoBehaviour
                 FindObjectOfType<Player>().hited(this.transform);
             }
             Destroy(gameObject, 0.1f);
-
         }
-
-
     }
-
-
 }
