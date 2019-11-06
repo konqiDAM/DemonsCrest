@@ -1,0 +1,10 @@
+-Destroy enemies
+-Helath
+-Better background
+-Flying enemy
+-levels
+-boss??
+-Skin change
+-Not moving while in air
+-Enemy can damage player
+-Add demon enemy

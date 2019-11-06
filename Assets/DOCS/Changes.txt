@@ -1,0 +1,33 @@
+24/10/2019
+-basic game
+-player can move and shoot
+-collision and background
+29/10/2019
+-Fixed jump
+-Can fly
+-Player has all animations like wal, fly, hover, fall, etc
+-Ghost span animation
+30/10/2019
+-started welcome screen
+-axe demon
+-axe
+-ghosts spawn and despawn on timer
+-player hit
+-player loses lives
+-shows lives
+-
+31/10/2019
+-Welcome screen finished
+-rainbow colors on welcome :)
+-fixed jump
+-flying ghost now works, chases and patrolls
+-Player is pushed back
+05/11/2019
+-Coins can be picked
+-Coins sum money
+-Demon axe drops coin
+-Player has atack animation in air and ground
+-Player dies and launches a animation than launches a fade to game over, returns to welcome
+06/11/2019
+-Fixed demon on destroy bug
+-Added levels, player conserves lives and coins
