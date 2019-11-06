@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class EnemyAxe : MonoBehaviour
 {
-    private int lifeSpan;
+    private float lifeSpan;
     void Start()
     {
-        lifeSpan = Random.Range(1, 3);
+        lifeSpan = Random.Range(0, 3);
         StartCoroutine(applyGravity());
     }
 
